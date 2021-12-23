@@ -14,6 +14,7 @@ In this task of the Particle World environment, `n` agents must cooperate throug
 
 ## Concept
 As mentioned earlier, [FlowComm](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p456.pdf) constitutes the baseline for GrPR2-A. FlowComm embeds a graph reasoning policy into [MAAC](http://proceedings.mlr.press/v97/iqbal19a.html), which trains decentralized policies in multiagent settings, using <em>centrally</em> computed critics that share an attention mechanism, selecting relevant information for each agent. The relevant files which correspond to the core of our implmentation are listed as follows:
+- [grpr2-a/utils/policies.py](https://github.com/saarcohen30/GrPR2-A/blob/main/grpr2-a/utils/policies.py) and [grpr2-a-colab/utils/policies.py](https://github.com/saarcohen30/GrPR2-A/blob/main/grpr2-a-colab/utils/policies.py) - The class `DiscreteConditionalPolicy` implements a discrete policy, which is conditional on the actions of an agnet's opponents.
 - [grpr2-a/utils/agents.py](https://github.com/saarcohen30/GrPR2-A/blob/main/grpr2-a/utils/agents.py) and [grpr2-a-colab/utils/agents.py](https://github.com/saarcohen30/GrPR2-A/blob/main/grpr2-a-colab/utils/agents.py) -- The class `AttentionREGMAAgent` implements the GrPR2-A agent, which incorporates both an agent's policy and its opponents' (approximated) conditional policies.
 
 ## Execution
