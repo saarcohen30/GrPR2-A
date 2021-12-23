@@ -18,4 +18,4 @@ As mentioned earlier, [FlowComm](https://www.ifaamas.org/Proceedings/aamas2021/p
 - [grpr2-a/utils/agents.py](https://github.com/saarcohen30/GrPR2-A/blob/main/grpr2-a/utils/agents.py) and [grpr2-a-colab/utils/agents.py](https://github.com/saarcohen30/GrPR2-A/blob/main/grpr2-a-colab/utils/agents.py) -- The class `AttentionREGMAAgent` implements the GrPR2-A agent, which incorporates both an agent's policy and its opponents' (approximated) conditional policies.
 
 ## Execution
-
+The [`grpr2-a/`](https://github.com/saarcohen30/GrPR2-A/tree/main/grpr2-a) and [`grpr2-a-colab/`](https://github.com/saarcohen30/GrPR2-A/tree/main/grpr2-a-colab) sub-directories comprise
