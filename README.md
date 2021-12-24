@@ -19,5 +19,5 @@ As mentioned earlier, [FlowComm](https://www.ifaamas.org/Proceedings/aamas2021/p
 
 ## Execution
 The [`grpr2-a/`](https://github.com/saarcohen30/GrPR2-A/tree/main/grpr2-a) and [`grpr2-a-colab/`](https://github.com/saarcohen30/GrPR2-A/tree/main/grpr2-a-colab) sub-directories consist of the `regma.py` module, whose execution performs the required testbed. Specifically, the following executions are possible:
-- `python regma/regma.py simple_spread_local maac` - For a setup of `n=4` agents.
-- `python regma/regma.py simple_spread_hetero maac` - For the extension of the cooperative navigation task to a <em>heterogeneous<\em> communication task. That is, for `n=8`, the third agent has a larger field of vision compared to the other agents. This allows us to simulate heterogeneity in hierarchical level of thinking, as agent `3` becomes more sophisticated compared to other agents.
+- `python grpr2-a/regma.py simple_spread_local maac` or `python grpr2-a-colab/regma.py simple_spread_local maac` - For a setup of `n=4` agents.
+- `python grpr2-a/regma.py simple_spread_hetero maac` or `python grpr2-a-colab/regma.py simple_spread_hetero maac` - For the extension of the cooperative navigation task to a <em>heterogeneous<\em> communication task. That is, for `n=8`, the third agent has a larger field of vision compared to the other agents. This allows us to simulate heterogeneity in hierarchical level of thinking, as agent `3` becomes more sophisticated compared to other agents.
